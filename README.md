@@ -5,14 +5,14 @@
 Regular non-learning based fitting of tDKI, such as linear least square fitting, requires densely sampled q-t space (Fig. 1(b1)). Previous learning-based methods primarily focused on investigating the sparsity of the q-space (Fig. 1(b2)), while the tDKI model also has sparsity in t-space and the joint q-t space. In this work, we proposed a joint q-t space downsampling strategy to accelerate tDKI acquisition (Fig. 1(b3)).
 
 <p align="center">
-   <img src="./Figure/Fitting method.jpg" align="center" width="700">
+   <img src="./figure/Fitting method.jpg" align="center" width="700">
 </p>
 <p align="center"> Fig.1 The overall structure of two fitting methods. <p align="center">
 
 This repository provides a demonstration of a q-t space acceleration network for t-DKI model, t-DKI-Net. In this repository we offer an inference framework on three kinds of downsampling mode namely q-1, t-1, and q-t-1 corresponding to our manuscript. The project was originally developed for our work on t-DKI Net and can be used directly or fine-tuned with your dataset. 
 
 <p align="center">
-   <img src="./Figure/Structure.jpg" align="center" width="700">
+   <img src="./figure/Structure.jpg" align="center" width="700">
 </p>
 <p align="center"> Fig.2 The overall network structure. <p align="center">
 

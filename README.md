@@ -1,4 +1,4 @@
-# _t_DKI-Net: a joint q-t space learning network for diffusion-time-dependent kurtosis imaging
+# *t*DKI-Net: a joint *q-t* space learning network for diffusion-time-dependent kurtosis imaging
 
 ## Introduction
 
@@ -27,7 +27,7 @@ Before you can use this package for image segmentation. You should install the f
 
 1. Compile the requirement library.
 
-2. Download our pretrained models and data from the link: <https://drive.google.com/drive/folders/1K5knd2j1ymO70brD1d-62vU0ZSFDTj_3>
+2. Download our pretrained models and data from the link: <https://drive.google.com/drive/folders/1Uezgc3m4_CzZUuXN0vmZ5VtA27izV1KS?usp=drive_link>
 
 3. Run our demo, using q-t-1 as an example
     ```
@@ -36,27 +36,12 @@ Before you can use this package for image segmentation. You should install the f
     python testqt0.py
     ```
 
-<!-- ## Citation
-
-If you find it useful for your research, please consider citing the following sources:
-
-    @article{ZHENG2023102788,
-    title = {A microstructure estimation Transformer inspired by sparse representation for diffusion MRI},
-    journal = {Medical Image Analysis},
-    volume = {86},
-    pages = {102788},
-    year = {2023},
-    issn = {1361-8415},
-    doi = {https://doi.org/10.1016/j.media.2023.102788},
-    author = {Tianshu Zheng and Guohui Yan and Haotian Li and Weihao Zheng and Wen Shi and Yi Zhang and Chuyang Ye and Dan Wu},
-    keywords = {Diffusion MRI, Microstructural model, Sparse coding, Transformer}, -->
 
 
 ## Acknowledge and Statement
 
-- This project was designed for academic research, not for clinical or commercial use, as it's a protected patent. 
-<!-- - Our demo was trained on [HCP-YA](https://www.humanconnectome.org/study/hcp-young-adult/) dataset and we used two shells ( 30 diffusion
-directions per shell at b-values of 1 and 2 $ms/ \mu m^2$ ) -->
+- This project was designed for academic research, not for clinical or commercial use, as it's a protected patent.
+  
 - If you have any questions, please feel free to contact [me](mailto:zhengtianshu996@gamil.com).
 
 

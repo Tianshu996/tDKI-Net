@@ -33,9 +33,9 @@ Before you can use this package for image segmentation. You should install the f
     ```
     cd qt0
     
-    python testqt0.py
+    python test.py
     ```
-
+4. If you want to try q0, just specify input_nc as 210 and output_nc as 9, while for td0, input_nc is 450 and output_nc is 7. 
 
 
 ## Acknowledge and Statement

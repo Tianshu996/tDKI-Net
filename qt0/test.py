@@ -36,9 +36,9 @@ if torch.cuda.is_available() and not opt.cuda:
     print("WARNING: You have a CUDA device, so you should probably run with --cuda")
 
 
-tsp = tEncoder(feat=5)
+tsp = tEncoder(feat=opt.output_nc-2)
 Tmapping = Mappingt()
-Kmapping = qEncoders(301, 75, 150, 5)
+Kmapping = qEncoders(301, 75, opt.input_nc, opt.output_nc-2)
 
 if opt.cuda:
     tsp.cuda()

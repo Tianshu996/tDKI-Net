@@ -9,7 +9,7 @@ Regular non-learning based fitting of tDKI, such as linear least square fitting,
 </p>
 <p align="center"> Fig.1 The overall structure of two fitting methods. <p align="center">
 
-This repository provides a demonstration of a q-t space acceleration network for t-DKI model, t-DKI-Net. In this repository we offer an inference framework on three kinds of downsampling mode namely q-1, t-1, and q-t-1 corresponding to our manuscript. The project was originally developed for our work on t-DKI Net and can be used directly or fine-tuned with your dataset. 
+This repository provides a simplified demonstration of a q-t space acceleration network for tDKI model, tDKI-Net. In this repository we offer an inference framework on three kinds of downsampling mode namely q-1, t-1, and q-t-1 corresponding to our manuscript. The project was originally developed for our work on t-DKI Net and can be used directly or fine-tuned with your dataset. 
 
 <p align="center">
    <img src="./figure/Structure.jpg" align="center" width="700">
@@ -34,6 +34,36 @@ Before you can use this package for image segmentation. You should install the f
     python test.py
     ```
 4. If you want to try q0, just specify input_nc as 210 and output_nc as 9, while for td0, input_nc is 450 and output_nc is 7. 
+
+## Citation
+
+If you find it useful for your research, please consider citing the following sources:
+
+
+Simplified J-BHI version for tDKI-Net, first attempt at q-t space downsampling
+
+```
+@ARTICLE{10568339,
+   author={Zheng, Tianshu and Ba, Ruicheng and Huang, Yongquan and Wu, Dan},
+   journal={IEEE Journal of Biomedical and Health Informatics}, 
+   title={tDKI-Net: A Joint q-T Space Learning Network for Diffusion-Time-Dependent Kurtosis Imaging}, 
+   year={2024},
+   pages={1-11},
+   doi={10.1109/JBHI.2024.3417259}}
+```
+
+Original MICCAI version, first adopted the extragradient method in the qMRI / microstructure estimation area
+
+```
+@inproceedings{zheng2022adaptive,
+  title={An adaptive network with extragradient for diffusion MRI-based microstructure estimation},
+  author={Zheng, Tianshu and Zheng, Weihao and Sun, Yi and Zhang, Yi and Ye, Chuyang and Wu, Dan},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={153--162},
+  year={2022},
+  organization={Springer}
+}
+```
 
 
 ## Acknowledge and Statement
